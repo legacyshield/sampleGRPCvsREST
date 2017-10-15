@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_outer_classname = "SampleProfileProto";
+
+package profile;
+
+service Profile {
+    rpc CreateProfile(ProfileRequest) returns (ProfileResponse) {}
+}
+
+message ProfileRequest {
+    string Name = 1;
+    int64 Age = 2;
+    string City = 3;
+    string Country = 4;
+}
+
+message ProfileResponse {
+    string message = 1;
+}
