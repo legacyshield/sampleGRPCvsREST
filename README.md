@@ -3,7 +3,7 @@
 The project aims at performance comparison of REST and GRPC calls.
 
 ## Source Code
-`go get github.com/radbrawler/sampleGRPCvsREST`
+`go get github.com/ashu1994/sampleGRPCvsREST`
 
 ## Run
 
