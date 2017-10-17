@@ -1,11 +1,15 @@
-##Description
+## Description
 
-The project aims at comparing the difference in performance of REST and GRPC calls.
+The project aims at performance comparison of REST and GRPC calls.
 
-##Run
+## Source Code
+`go get github.com/ashu1994/sampleGRPCvsREST`
 
-    1) go run main_rest.go
-    2) cd grpc_server/
-    3) go run server.go
-    4) cd ../grpc_client
-    5) go test --bench Bench
+## Run
+
+    1) go get ./...
+    2) go run main_rest.go
+    3) cd grpc_server/
+    4) go run server.go
+    5) cd ../grpc_client
+    6) go test --bench Bench
