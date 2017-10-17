@@ -1,8 +1,8 @@
-##Description
+## Description
 
 The project aims at comparing the difference in performance of REST and GRPC calls.
 
-##Run
+## Run
 
     1) go run main_rest.go
     2) cd grpc_server/
