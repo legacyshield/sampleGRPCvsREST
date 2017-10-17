@@ -3,7 +3,7 @@ package main
 import (
 	"google.golang.org/grpc"
 	"fmt"
-	pb "sampleGRPC/profile"
+	pb "github.com/radbrawler/sampleGRPCvsREST/profile"
 	"golang.org/x/net/context"
 )
 

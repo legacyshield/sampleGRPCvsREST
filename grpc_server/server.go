@@ -5,7 +5,7 @@ import (
 	"net"
 	"fmt"
 	"google.golang.org/grpc"
-	pb "sampleGRPC/profile"
+	pb "github.com/radbrawler/sampleGRPCvsREST/profile"
 
 	"golang.org/x/net/context"
 )
